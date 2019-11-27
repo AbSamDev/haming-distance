@@ -1,3 +1,5 @@
+//ABDUL SAMAD
+
 #include<iostream>
 using namespace std;
 
@@ -15,6 +17,7 @@ int main(){
 	string str1= "Abdul";
 	string str2= "Samad";
 	int hd=haming_distance(str1,str2);
-	cout<<hd;
+	//cout<<hd;
+	cout<<str1.compare(str2); // built in string comparator
 	return 0;
 }
